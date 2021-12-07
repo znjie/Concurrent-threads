@@ -1,0 +1,4 @@
+ReentrantLock 与ReentrantReadWriteLock的比较：
+（1）相同点：其实都是一种显示锁，手动加锁和解锁，都很适合高并发场景
+（2）不同点：ReentrantReadWriteLock是对ReentrantLock的复杂扩展，能适合更加复杂的业务场景，
+           ReentrantReadWriteLock可以实现读写分离锁的机制。而ReentrantLock加锁解锁只有一种机制

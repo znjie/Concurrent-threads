@@ -1,0 +1,2 @@
+线程安全问题
+加上隐式锁  synchronized
